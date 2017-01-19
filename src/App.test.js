@@ -8,7 +8,3 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
 });
 
-ReactDOM.render(
-  <MyComponent />,
-  document.getElementById('container')
-);
